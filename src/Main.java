@@ -1,0 +1,71 @@
+public class Main {
+    public static void main(String[] args) {
+//  int a = 569;
+//  byte b = 67;
+//  short s = 27987;
+//  long l = 987678965549L;
+//  float f = -159;
+//  double d = 2.786
+      //  Задача 3;
+        byte classA = 23;
+        byte classB = 27;
+        byte classC = 30;
+        short paper = 480;
+        int overKlass = classA + classB + classC;
+        int expensed = paper / overKlass;
+        System.out.println("На каждого ученика расчитано " + expensed + "листов бумаги");
+          // Задача 4;
+        byte speedMahs = 16;
+        byte tame1 = 20;
+        int tame2 = 1440;
+        int tame3 = 4320;
+        int tame4 = 43200;
+        int speeMin = speedMahs / 2;
+        int fin1 = tame1 * speeMin;
+        System.out.println("За" + tame1 + "машина произвела" + fin1 + "штук бутылок");
+       //   Задача 5;
+        int bilyy = 2;
+        int korichnivyy = 4;
+        int total = 120;
+        int totalClasses = total / (bilyy + korichnivyy);
+        int totalbilyy = bilyy * totalClasses;
+        int totalkorichnivyy = korichnivyy * totalClasses;
+        System.out.println("в школе, где" + totalClasses + "классов, нужно" + bilyy + "банок белой краски и" + korichnivyy + "банок каричневой краски");
+        //  Задача 6;
+        int banana = 5 * 80;
+        int milk = 200 / 100 * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 78;
+        int gWeinght = banana + milk + iceCream + eggs;
+        double kgWaight = gWeinght / 1000.0;
+        System.out.println("Вес такова спорт - завтрака в кг"  + kgWaight);
+        //  Задача 7;
+        int targetkg = 7;
+        int mingranperday = 250;
+        int maxgranperday = 500;
+        int targetgran = targetkg = 1000;
+        int ifmin = targetgran / mingranperday;
+        int ifmax = targetgran / maxgranperday;
+        int daysAverage = (ifmin=ifmax *2);
+        System.out.println("если спорсмен будет терять каждый день по 250 грамм -"+ ifmin);
+        System.out.println("если спортсмен будет терять каждый день по 500 грамм-"+ ifmax);
+        System.out.println("если в среднем-" + daysAverage);
+        // Задача 8;
+        int Masha = 67768;
+        int Dinis = 83698;
+        int Kristina = 76230;
+        int Mashaup = Masha / 100*10;
+        int Dinisup = Dinis / 100*10;
+        int Kristinaup = Kristina / 100*10;
+        int MashaNew = Masha + Mashaup;
+        int DinisNew = Dinis + Dinisup;
+        int KristinaNew = Kristina + Kristinaup;
+        int MashaYearUp = Mashaup * 12;
+        int DinisYearUp = Dinisup * 12;
+        int KristinaYearUp = Kristinaup * 12;
+        System.out.println("Маша теперь получает"+ MashaNew + "рублей.Годовой доход вырос на" + MashaYearUp + "рублей");
+        System.out.println("Маша теперь получает" +DinisNew + "рублей.Годовой доход вырос на" + DinisYearUp +"рублей");
+        System.out.println("Маша теерь получает" + KristinaNew + "рублей.Годовой доход вырос на"+ KristinaYearUp + "рублей");
+    }
+    }
+
